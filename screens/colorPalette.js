@@ -1,6 +1,8 @@
 import React from 'react';
 import { Text, StyleSheet, FlatList } from 'react-native';
 import ColorBox from '../comp/colorBox';
+import Clipboard from '@react-native-community/clipboard';
+
 
 const ColorPalette = ({ route }) => {
     const { colors } = route.params;

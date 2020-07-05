@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Clipboard } from 'react-native';
+
 
 const ColorBox = props => {
     const colorStyle = {
@@ -12,13 +13,21 @@ const ColorBox = props => {
                 ? 'black'
                 : 'white',
     };
+    const r2d2 = colorStyle.backgroundColor;
+    const writeToClipboard = async () => {
+        await Clipboard.setString(`${r2d2}`);
+        alert('Copied to Clipboard!');
+    };
+
 
     return (
-        <View style={[styles.box, colorStyle]}>
-            <Text style={[styles.text, textStyle]}>
-                {props.colorName} {props.hexCode}
-            </Text>
-        </View>
+        <TouchableOpacity onPress={writeToClipboard}>
+            <View style={[styles.box, colorStyle]}>
+                <Text style={[styles.text, textStyle]}>
+                    {props.colorName} {props.hexCode}
+                </Text>
+            </View>
+        </TouchableOpacity>
     );
 };
 
