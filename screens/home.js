@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { StyleSheet, FlatList, RefreshControl, TouchableOpacity, Text } from 'react-native';
 import PalettePreview from '../comp/palettePreview';
 
-const URL = 'https://color-palette-api.kadikraman.now.sh/palettes';
+const URL = 'https://color-palete-api.vercel.app/palettes';
 
 
 
@@ -39,6 +39,7 @@ const Home = ({ navigation, route }) => {
     });
 
     return (
+
         <FlatList
             style={styles.list}
             data={palettes}

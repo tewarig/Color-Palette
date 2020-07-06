@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "basics",
-    "slug": "basics",
+    "name": "Color-Palette",
+    "slug": "Color-Palette",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/tewarig/Color-Palette"
   }
 }

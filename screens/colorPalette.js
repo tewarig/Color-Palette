@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, FlatList } from 'react-native';
 import ColorBox from '../comp/colorBox';
 import Clipboard from '@react-native-community/clipboard';
+import { ScrollView } from 'react-native-gesture-handler';
 
 
 const ColorPalette = ({ route }) => {
