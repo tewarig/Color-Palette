@@ -6,6 +6,15 @@ It is just a cool color pallete to help you build awesome sites.
   - Get cool colors for building your site
   -  Or use API in your own projects.
   - Click to copy.. it is that easy
+  
+### Web Build
+
+Best part about using expo.. React native for web 🥳  yup... no need to dowload this app or to download expo. just use this url to have a web preview of this.. 
+https://colorful-something.netlify.app/
+
+### try on expo 
+try this thing on expo => https://expo.io/@tewarig0/Color-Palette
+
 
 # Comming Soon!
 
@@ -23,10 +32,6 @@ API Endpoint =>  " https://color-palete-api.vercel.app/palettes "
 
 
 
-### Web Build
-
-Best part about using expo.. React native for web 🥳  yup... no need to dowload this app or to download expo. just use this url to have a web preview of this.. 
-https://colorful-something.netlify.app/
 
 
 
