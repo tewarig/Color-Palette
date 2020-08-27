@@ -1,7 +1,7 @@
 # Color-Palette
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-<a href="https://appetize.io/app/bbpc5kjwn10v13gf8nphah3cpg"> Run this app in android emulator </a>
+<a href="https://appetize.io/app/bbpc5kjwn10v13gf8nphah3cpg"> Click here to run this app on browser in a android emulator</a>
 
 
 It is just a cool color pallete to help you build awesome sites. 
